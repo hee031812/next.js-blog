@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+
+        li {
+            margin: 5px;
+            border: 1px solid var(--blue);
+        }
+    }
+
+}

@@ -1,0 +1,58 @@
+.login {
+  min-height: 800px;
+
+  .login__header {
+    width: 100%;
+    padding: 100px 0 50px;
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: var(--font-nanum);
+      color: var(--black);
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 0.8rem;
+      font-family: var(--font-nanum);
+      color: var(--gray);
+
+      em {
+        color: #ff0303;
+      }
+    }
+
+
+
+    .detail_title {
+      font-size: 3vw;
+      text-align: center;
+    }
+
+
+
+    .detail__img {
+      width: 80%;
+      margin: 50px auto;
+      height: 500px;
+      border-radius: 10px;
+      border: 1px solid #000;
+    }
+
+    .detail__desc {
+      width: 100%;
+      padding: 20px 40px;
+
+    }
+  }
+
+  .left {
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    background-color: #382222;
+  }
+
+
+}

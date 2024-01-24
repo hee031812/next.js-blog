@@ -21,8 +21,9 @@ export default async function Category() {
     return (
         <section className='blog__category'>
             <ul>
+                <li><Link href="/">all</Link ></li>
                 {data.map((item) => (
-                    <li key={item.id}><Link href=''>{item.title}</Link></li>
+                    <li key={item.id}><Link href={`?cate=${item.slug}`}>{item.title}</Link></li>
                 ))}
 
             </ul>
