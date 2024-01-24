@@ -2,7 +2,7 @@
 ```
 npm install sass 
 npm install next-auth
-npm install prisma
+npm install prisma (db연동)
 npm install @prisma/client
 npm install @auth/prisma-adapter
 ```

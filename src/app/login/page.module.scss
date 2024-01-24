@@ -1,0 +1,131 @@
+.login {
+  min-height: 800px;
+
+  .login__header {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0 50px;
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 700;
+      font-family: var(--font-nanum);
+      color: var(--black);
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 0.8rem;
+      font-family: var(--font-nanum);
+      color: var(--gray);
+
+      em {
+        color: #ff0303;
+      }
+    }
+  }
+
+  .login__form {
+    fieldset {
+      border: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .id,
+      .pass {
+        >input {
+          font-size: 1rem;
+          font-family: var(--font-nanum);
+          font-weight: 700;
+          width: 350px;
+          height: 45px;
+          padding: 10px;
+          margin-bottom: 10px;
+          background-color: var(--white);
+          border: 1px solid #120d3b;
+
+          &:focus {
+            outline: 3px solid rgba(255, 255, 255, 0.3);
+          }
+        }
+      }
+
+      .btn {
+        >button {
+          font-size: 1rem;
+          font-family: var(--font-nanum);
+          font-weight: 500;
+          color: var(--white);
+          width: 350px;
+          height: 45px;
+          background-color: #120d3b;
+          border-radius: 2px;
+          cursor: pointer;
+          transition: all 0.3;
+
+          &:hover {
+            background-color: #120d3b7b;
+          }
+        }
+      }
+
+      .snsLogin {
+        display: flex;
+
+        >button {
+          margin: 5px;
+          font-size: 1rem;
+          font-family: var(--font-nanum);
+          font-weight: 700;
+          color: var(--black);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50px;
+          height: 50px;
+          font-size: 0.5rem;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          border-radius: 50px;
+          border: 1px solid #120d3b;
+          margin-top: 10px;
+          cursor: pointer;
+          transition: all 0.3s;
+
+          &:hover {
+            color: var(--black);
+            background-color: var(--white);
+          }
+
+          &:first-child {}
+
+          svg {
+            max-width: 25px;
+            max-height: 25px;
+            margin-right: 10px;
+          }
+
+          img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50px;
+          }
+        }
+
+        .github {
+          svg {
+            fill: var(--black);
+            transition: all 0.3s;
+          }
+
+          &:hover {
+            svg {
+              fill: var(--black);
+            }
+          }
+        }
+      }
+    }
+  }
+}
