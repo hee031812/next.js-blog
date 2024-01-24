@@ -4,6 +4,8 @@
     justify-content: center;
     flex-direction: row;
 
+
+
     ul {
         padding: 50px;
         display: flex;
@@ -20,5 +22,13 @@
             background-color: var(--blue);
             color: var(--white);
         }
+    }
+}
+
+@media(max-width:700px) {
+    .blog__category ul {
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }

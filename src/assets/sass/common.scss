@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 #main {
@@ -50,7 +50,7 @@ body {
   }
 
   .button.white {
-    --background: #fff;
+    --background: var(--white);
     --text: #275efe;
     --shadow: 0 2px 8px -1px rgba(18, 22, 33, 0.04);
     --shadow-hover: 0 4px 20px -2px rgba(18, 22, 33, 0.12);
@@ -62,7 +62,7 @@ body {
 
   .button {
     --background: #000000;
-    --text: #fff;
+    --text: var(--white);
     --font-size: 16px;
     --duration: 0.44s;
     --move-hover: -4px;
